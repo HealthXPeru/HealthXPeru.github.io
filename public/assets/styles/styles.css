@@ -1,0 +1,460 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-behavior: 1s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); /* Función personalizada para un efecto suave */
+
+}
+
+/* Header */
+
+header {
+    background-color: #ffffff;
+    color: #003346;
+    padding: 0px 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.header-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.icono_header{
+    max-width: 100%;
+    margin: 0;
+    margin-right: 15px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px 0px;
+    margin-left: 0px;
+    gap: 50px; 
+    align-items: center;
+}
+
+.botones_header  {
+    display: flex;
+    gap: 20px; 
+    color: #003346;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #003346;
+    margin-right: 80px;
+}
+
+
+nav a {
+    font-family: 'Poppins',semi-bold;
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+nav a:hover{
+    font-family: 'Poppins',semi-bold;
+    text-decoration: none;
+    color: #25CCA4;
+    transition:  color 0.2s;
+}
+
+.Registrar a {
+    text-decoration: none;
+    color: #2D2D2D;
+    text-align: right;
+    margin-right: 0; 
+}
+
+.Registrar a:hover {
+    text-decoration: none;
+    color: #25CCA4;
+    text-align: right;
+    margin-right: 0; 
+    transition:  color 0.2s;
+
+}
+
+.Iniciar a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #D8135F;
+    padding: 20px 30px;
+    border-color: white;
+    border-radius: 30px 0px 0px 30px;
+    transition: background-color 0.2s, color 0.2s;
+
+}
+
+.Iniciar a:hover{
+    color: #D8135F;
+    background-color: #ffffff;
+}
+
+/* Inicio */
+#inicio {
+    background-color: #ffffff;
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 800px;
+
+}
+
+
+.inicio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    text-align: center;
+    gap: 100px;
+}
+
+.inicio-left {
+    text-align: left;
+    max-width: 100%;
+    margin: 0px;
+}
+
+.inicio_right{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.bienvenido {
+    color: #25CCA4;
+    text-transform: uppercase;
+    font-family: 'Poppins',bold;
+    font-size: 25pt;
+    letter-spacing: 9px;
+    padding: 0px;
+
+}
+
+
+.slogan_inicio{
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #25CCA4;
+    line-height: 99%; 
+}
+
+.peruanos{
+    color: #D8135F;
+}
+
+.parrafo_inicio{
+    color: #8b8899;
+    font-size: 15pt;
+}
+
+
+
+.boton_mapa, .boton_info {
+    margin: 10px;
+    padding: 10px 60px;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.boton_mapa{
+    text-decoration: none;
+    background-color: #25CCA4;
+    color: #fff;
+}
+
+.boton_mapa:hover{
+    background-color: #ffffff;
+    color: #25CCA4;
+}
+
+.boton_info{
+    background-color: #ffffff;
+    color: #25CCA4;
+    border: solid;
+    border-color: #25CCA4;
+    border-width: 3px;
+}
+
+.boton_info:hover{
+    background-color: #25CCA4;
+    color: #ffffff;
+}
+
+    
+
+
+
+/* Nosotros */
+
+#nosotros {
+    background-image: url(images/fondo_nosotros.svg);
+    padding: 0px 0px;
+    background-size: cover;
+    background-position: center center;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.titulo_nosotros{
+    text-align: center;
+    color: #063647;
+    font-size: 70pt;
+    font-family: 'Poppins', regular;
+    margin: 0px;
+}
+
+.nosotros-container {
+
+    text-align: center;
+    display: inline-flex;
+    padding: 0px 0px;
+    color: #ffffff;
+    font-size: 18pt;
+    font-family: 'Poppins', regular;
+}
+
+.imagen_nosotros1{
+    max-width: 500px;
+}
+.imagen_nosotros2{
+    max-width: 500px;
+}
+.imagen_nosotros3{
+    max-width: 500px;
+}
+
+.texto1_nosotros{
+    margin: 35px;
+    font-family: 'Poppins', regular;
+
+}
+
+.texto2_nosotros{
+    margin: 35px;
+    font-family: 'Poppins', regular;
+
+}
+
+.texto3_nosotros{
+    margin: 35px;
+    font-family: 'Poppins', regular;
+
+}
+
+
+
+
+
+
+/* Servicios */
+#servicios {
+    background-image: url(images/fondo_servicios.svg);
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.servicios-titulo{
+    color: #ffffff;
+    font-family: 'Poppins', bold;
+    font-size: 50pt;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px;
+    gap: 300px;
+}
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    
+}
+
+.servicio-item1 a,
+.servicio-item2 a,
+.servicio-item3 a,
+.servicio-item4 a,
+.servicio-item5 a,
+.servicio-item6 a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: #ffffff; 
+    color: #063647; 
+    text-align: center;
+    text-decoration: none;
+    padding: 100px 50px; 
+    border-radius: 30px 30px 30px;
+    height: 50px; 
+    line-height: 20px; 
+    box-shadow: 5px 10px 10px rgba(0, 0, 0.1, 0.1); /* Sombra con 5px de desenfoque y opacidad 0.5 */
+    width: 100px; /* Ancho deseado */
+    height: 100px; /* Altura deseada */
+}
+
+.servicio-item1 a:hover,
+.servicio-item2 a:hover,
+.servicio-item3 a:hover,
+.servicio-item4 a:hover,
+.servicio-item5 a:hover,
+.servicio-item6 a:hover {
+    background-color: #ffffff;
+    color: #063647; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); /* Sombra con 5px de desenfoque y opacidad 0.5 */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Contacto */
+#contacto {
+    background-color: #fff;
+    padding: 50px 20px;
+    color: #003346;
+    flex-direction: column;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    
+}
+
+.contacto_titulo{
+    font-size: 50pt;
+
+}
+
+.parrafo_contacto{
+    font-size: 15pt;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.contacto_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 0px;
+    text-decoration: none;
+    padding: 0px 0px;
+    max-width: 280px;
+    
+}
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    height: 800px;
+    max-width: 100%;
+    gap: 200px;
+}
+
+.contacto-info {
+    flex: 1;
+    text-align: left;
+}
+
+.formulario label {
+    display: block;
+    align-items: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.formulario{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003346;
+    padding: 50px 50px;
+    border-radius: 60px 60px 60px 60px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Poppins';
+}
+
+.formulario button {
+    cursor: pointer;
+    background-color: #25CCA4;
+    color: #fff;
+    font-size: 10pt;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.formulario button:hover {
+    font-family: 'Poppins';
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #25CCA4;
+    font-size: 10pt;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
